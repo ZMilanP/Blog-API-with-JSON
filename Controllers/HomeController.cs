@@ -88,7 +88,7 @@ namespace Blog_API_with_JSON.Controllers
             }
             else
             {
-                var post = PostManager.Read().Find(x => x.ID== id);
+                var post = PostManager.Read().Find(x => x.ID == id);
 
                 if(post != null)
                 {
